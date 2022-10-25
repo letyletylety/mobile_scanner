@@ -14,6 +14,29 @@ Other changes:
 * [iOS] Update barcode scanning library to latest version
 * Several minor code improvements
 
+## 1.0.0 (2022-10-25)
+
+
+### Features
+
+* add formats selector ([4b55b0f](https://github.com/letyletylety/mobile_scanner/commit/4b55b0f1de195107d53952640b12074adaa3f8d5))
+* add image picker from gallery for android ([e6b37c6](https://github.com/letyletylety/mobile_scanner/commit/e6b37c69b4e1738c7c026cc315a9e8b498d42a68))
+* add local image scanner for Android and iOS ([79c1acf](https://github.com/letyletylety/mobile_scanner/commit/79c1acfa528599a418e4e086d9b39ad708e88e13))
+* add macos support ([c1abba2](https://github.com/letyletylety/mobile_scanner/commit/c1abba225fadb1f8449ff00cb60dc80dd675874b))
+* add web support ([0cd88ec](https://github.com/letyletylety/mobile_scanner/commit/0cd88eca7bb9d7302ba0c26fcc1c50083aba10c5))
+* allow duplicates parameter ([d21e15d](https://github.com/letyletylety/mobile_scanner/commit/d21e15d35e162092c1fb4cf15b442a4e4df7462e))
+* enable displayValue ([673d335](https://github.com/letyletylety/mobile_scanner/commit/673d33569a540b604f3ff2ffbe6bdf253bac96f4))
+* fix android scanner, torch, switch camera and much more ([0442a5f](https://github.com/letyletylety/mobile_scanner/commit/0442a5f75525cc796c9158a2ba96b34cc91164ae))
+* update web integration ([80364d0](https://github.com/letyletylety/mobile_scanner/commit/80364d055c544c507ef9e2461850f31bc258b9d4))
+
+
+### Bug Fixes
+
+* bad state stream has already been listened to ([e5a2e5b](https://github.com/letyletylety/mobile_scanner/commit/e5a2e5b7cff946a31764976ab8fd7f4926254778))
+* Handle all cases when a controller should be initialized and disposed ([2872265](https://github.com/letyletylety/mobile_scanner/commit/2872265f237afac12a22927d4d122684e1fe0783))
+* should check for the raw bytes instead of string, in case of a malformed utf8 string ([a563906](https://github.com/letyletylety/mobile_scanner/commit/a5639060a387f9bcaa0710b0acd0e4abff36ef97))
+* use correct package name in `AndroidManifest.xml` in example ([1e85d8e](https://github.com/letyletylety/mobile_scanner/commit/1e85d8ed20b4e294b4b0fe0513ed4936e79eac3f))
+
 ## 2.0.0
 Breaking changes:
 This version is only compatible with flutter 3.0.0 and later.
